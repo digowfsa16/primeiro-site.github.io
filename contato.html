@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <br>
+            <img align="Center" src="logo.svg" alt="Logo" width="100%" ><br>
+            <hr>
+
+            <h2 align="Center">Menu</h2>
+            <hr>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="funcionamento.html">Funcionamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header" >
+                <img align="Center" src="contato.png" alt="head principal" width="100%" height="150" ><br>
+            </div>
+    
+            <div class="content">
+                <h2>Formulário de Contato</h2>
+                <form action="enviar_formulario.php" method="POST">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required><br><br>
+                    
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" required ></textarea><br><br>
+                    
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+
+            </div>
+    
+            <div class="footer" align="center">
+                <div widht="100">
+                    <p1><strong>Contatos:</strong></p1><br>
+                    <p2>📱 <a href="https://wa.me/55XX000000000" target="_blank">WhatsApp: +55 (75) 98765-4321</a></p2><br>
+                    <p3>📸 <a href="https://www.instagram.com/ClipedPed" target="_blank">Instagram: @ClipedPed</a></p3><br>
+                    <p4>📘 <a href="https://www.facebook.com/ClipedPed" target="_blank">Facebook: Cliped Ped</a></p4><br><br>
+                    <p5><strong>Localização:</strong></p5><br>
+                    <p6>Rua Exemplo, 123, Bairro Exemplo, Cidade, Estado, CEP 00000-000</p6><br><br>
+                    <p7><small>© 2024 Cliped Pediatria. Todos os direitos reservados.</small></p7><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
